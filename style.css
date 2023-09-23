@@ -1,0 +1,107 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+main
+{
+    width: 600px;
+    height: 1350px;
+    background-color: rgba(127, 255, 212, 0.582);
+
+}
+.feeds h2
+{
+    margin-left:50px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.topnavigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topnavigation h3
+{
+    margin: 25px;
+    border-bottom: 2px solid black;
+    
+}
+.name
+{
+    line-height: 3px;
+    padding-left: 20px;
+}
+.caption h5
+{
+    padding-left: 40px;
+}
+.commentssection h5
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.commentssection
+{
+    line-height: 5px;
+}
+.image1
+{
+    width: 600px;
+    height: 300px;
+    background-image: url(post1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.image2
+{
+    width: 600px;
+    height: 300px;
+    background-image: url(post2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.comment
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment h4
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+.commentssection hr
+{
+    border: none;
+    height: 3px;
+    background-color: rgba(173, 173, 173, 0.548);}
+.line hr
+{
+    height: 5px;
+    background-color: rgba(173, 173, 173, 0.548);
+    border: none;
+}
+.profile
+{
+    display: flex;
+}
+.pic
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
